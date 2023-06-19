@@ -1,0 +1,38 @@
+.hero {
+    background: url('../../img/hero-bg.png') no-repeat center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 1.4rem;
+    width: 50%;
+    color: #fff;
+    margin: 2rem auto;
+}
+
+.hero .search {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero .search input[type="text"] {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+}
+
+.hero .search button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    border: none;
+    background: none;
+    text-indent: -9999px;
+    background: url('../../img/magnifying-glass.png') no-repeat center;
+    background-size: 70%;
+}

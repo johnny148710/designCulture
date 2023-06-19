@@ -1,0 +1,50 @@
+.results-container {
+    background: #f4f4f4;
+    padding-bottom: 4rem;
+}
+
+#results .card {
+    border: none;
+    background: transparent;
+}
+
+#results .country-information {
+    background: #fff;
+    padding: 2rem;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #eee;
+}
+
+#results h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    margin: 3rem 0;
+}
+
+#results h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#results h4 span {
+    font-weight: 100;
+}
+
+.no-results {
+    background: url("../../img/no-results.png") no-repeat center;
+    padding: 2rem;
+}
+
+.no-results h4 {
+    text-align: center;
+    padding-top: 16rem;
+}
+
+.no-results p {
+    text-align: center;
+    color: #858585;
+}

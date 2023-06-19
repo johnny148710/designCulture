@@ -1,0 +1,36 @@
+header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__logo {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header__title {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header__title h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header__contact {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header__contact p {
+    color: #858585;
+}

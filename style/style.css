@@ -1,0 +1,11 @@
+/* global */
+/* @import "global/global.css"; */
+
+/* layout */
+@import "header/header.css";
+@import "layouts/hero.css";
+@import "layouts/results.css";
+@import "layouts/footer.css";
+
+/* styling */
+@import "styling/styling.css";
